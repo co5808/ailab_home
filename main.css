@@ -26,3 +26,27 @@ h1{
 #bottom > p{
   color: gray;
 }
+nav {
+  margin-left:8%;
+  margin-right:8%;
+  vertical-align: text-bottom;
+  padding:0px
+}
+
+nav > ul{
+  border-top: thin solid gray;
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+nav li{
+  float:left;
+  margin-bottom: 5px;
+  margin-right: 50px
+}
+nav li a{
+  font-size:20px;
+  color:black;
+  font-weight:bold;
+  text-decoration:none
+}

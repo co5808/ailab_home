@@ -1,73 +1,39 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="main.css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<title>랩 홈페이지</title>
-		<meta charset="utf-8" >
-
+		<link rel="stylesheet" href="main.css">
+		<title>AI Lab</title>
+		<meta charset="utf-8">
 	</head>
 	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#header").load("up_bar.html");
-			$("#footer").load("down.bar.html");
-		});
-	</script>
-	<body>
-		<div id="page-wrapper">
-			<!-- Header -->
-
-			<div id="header">
-						<!-- 비워 두기 -->
-			</div>
-
-			<!-- body -->
-			<div id="body-pic">
-				<ul>
-            <hr color="black" width=80%>
-						<li>
-									<h2> 이곳은 사진이 들어갈 자리</h2>
-						</li>
-				</ul>
-			</div>
-
-			<div id="body-content">
-				<ul>
-						<hr color="blue" width=80%>
-						<li>
-									<h3> AI LAB</h3>
-									<h2>설명과 사진</h2>
-						</li>
-				</ul>
-			</div>
-
-			<div id="body-menu">
-				<ul>
-						<hr color="yellow" width=80%>
-					<li>
-						<h2>Curren Research - 바디 메뉴</h2>
-					</li>
-				</ul>
-			</div>
-
-			<div id="body-menu">
-				<ul>
-						<hr color="green" width=80%>
-					<li>
-						<h2>Alice was published - 글</h2>
-					</li>
-				</ul>
-			</div>
-
-			<div id="footer">
-				<ul>
-					<li>
-						<hr color="yellow" width=80%>
-						<h2>Curren Research + 블라블라</h2>
-					</li>
-				</ul>
-			</div>
-
+	$(document).ready(function(){
+		$("#body_text").load("index_body.html");
+		$("#footerr").load("down.bar.html");
+	});
+	  </script>
+	  </body>
+	<nav >
+		<div id="logo">
+		  <ul>
+			<a href="index.html"><img class="trademark" src="picture/gwnu_logo.png" width:"100px" height="80px" ></a>
+		  </ul>
+		</div>
+	  
+		<ul>
+		  <li><a href="#">About lab</a></li>
+		  <li><a href="#">Members</a></li>
+		  <li><a href="#">Reaserch</a></li>
+		  <li><a href="#">Scholarship</a></li>
+		  <li><a href="#">Boards</a></li>
+		</ul>
+	</nav>
+	
+		<div id="body_text">
+			<!-- 데이터 로드-->
+		</div>
+		<div id="footerr">
+			<!-- footer 데이터 로드-->
 		</div>
 	</body>
 </html>
